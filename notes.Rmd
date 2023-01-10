@@ -1,0 +1,7 @@
+---
+title: "Notes on the Tidyverse and RStudio"
+author: "GW Dean"
+date: "`r Sys.Date()`"
+output: github_document
+---
+## Notes on the Tidyverse and Rstudio
