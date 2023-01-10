@@ -1,9 +1,19 @@
-Notes on the Tidyverse and RStudio
+Notes on the RStudio and the Tidyverse
 ================
 GW Dean
 2023-01-10
 
-## Notes on the Tidyverse and Rstudio
+## Notes on Rstudio and the Tidyverse
+
+-   R Programming Language
+-   RStudio IDE (Integrated Development Environment)
+-   Tidyverse
+-   Posit
+
+### Download RStudio
+
+-   <https://posit.co/downloads/>
+-   <https://posit.co/download/rstudio-desktop/>
 
 ### Core Tidyverse
 
@@ -18,4 +28,10 @@ GW Dean
 
 ### Links
 
-<https://www.tidyverse.org/>
+-   <https://www.tidyverse.org/>
+-   <https://www.tidyverse.org/learn/>
+-   <https://moderndive.com/>
+-   <https://www.tidyverse.org/blog/>
+-   <https://www.tidyverse.org/help/>
+-   <https://roxygen2.r-lib.org/>
+-   <https://posit.co/resources/cheatsheets/>
