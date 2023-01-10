@@ -13,11 +13,15 @@ GW Dean
 ### Download RStudio
 
 -   <https://posit.co/downloads/>
+
 -   <https://posit.co/download/rstudio-desktop/>
 
 -   R Programming Language
+
 -   RStudio IDE (Integrated Development Environment)
+
 -   Tidyverse
+
 -   Posit
 
 ### Download RStudio
