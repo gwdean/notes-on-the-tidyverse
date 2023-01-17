@@ -1,7 +1,7 @@
 Notes on the RStudio and the Tidyverse
 ================
 GW Dean
-2023-01-10
+2023-01-17
 
 ## Notes on Rstudio and the Tidyverse
 
@@ -9,6 +9,7 @@ GW Dean
 -   RStudio IDE (Integrated Development Environment)
 -   Tidyverse
 -   Posit
+-   RMarkdown
 
 ### Download RStudio
 
@@ -26,12 +27,20 @@ GW Dean
 -   tidyr (<https://tidyr.tidyverse.org/>)
 -   purrr (<https://purrr.tidyverse.org/>)
 
+### Other Resources related to the Tidyverse
+
+-   RMarkdown (<https://rmarkdown.rstudio.com/index.html>)
+-   Statistical Inference via Data Science: A ModernDive into R and the
+    Tidyverse (<https://moderndive.com/>)
+-   R for Data Science (<https://r4ds.hadley.nz/>)
+-   Tidy Models (<https://www.tidymodels.org/>)
+
 ### Links
 
 -   <https://www.tidyverse.org/>
 -   <https://www.tidyverse.org/learn/>
--   <https://moderndive.com/>
 -   <https://www.tidyverse.org/blog/>
 -   <https://www.tidyverse.org/help/>
 -   <https://roxygen2.r-lib.org/>
 -   <https://posit.co/resources/cheatsheets/>
+-   <https://bookdown.org/yihui/rmarkdown/>
