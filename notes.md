@@ -1,7 +1,7 @@
 Notes on the RStudio and the Tidyverse
 ================
 GW Dean
-2023-01-17
+2023-01-18
 
 ## Notes on Rstudio and the Tidyverse
 
@@ -44,3 +44,7 @@ GW Dean
 -   <https://roxygen2.r-lib.org/>
 -   <https://posit.co/resources/cheatsheets/>
 -   <https://bookdown.org/yihui/rmarkdown/>
+-   <https://datasciencebox.org/>
+-   <https://stat545.com/>
+-   <https://www.rstudio.com/resources/webinars/what-every-data-scientist-should-know-about-education/>
+-   <http://teachtogether.tech/en/index.html>

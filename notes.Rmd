@@ -41,4 +41,11 @@ output: github_document
 - https://roxygen2.r-lib.org/
 - https://posit.co/resources/cheatsheets/
 - https://bookdown.org/yihui/rmarkdown/
+- https://datasciencebox.org/
+- https://stat545.com/
+- https://www.rstudio.com/resources/webinars/what-every-data-scientist-should-know-about-education/
+- http://teachtogether.tech/en/index.html
+
+
+
 
