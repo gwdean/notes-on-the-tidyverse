@@ -4,8 +4,11 @@ author: "GW Dean"
 date: "`r Sys.Date()`"
 output: github_document
 ---
-## Notes on Rstudio and the Tidyverse
+```{r, out.width='100%', fig.align='center', fig.cap='Tidy Data Science Workflow', echo = FALSE}
+knitr::include_graphics('images/workflow.png')
+```
 
+## Overview
 - R Programming Language
 - RStudio IDE (Integrated Development Environment)
 - Tidyverse

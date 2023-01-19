@@ -1,9 +1,18 @@
 Notes on the RStudio and the Tidyverse
 ================
 GW Dean
-2023-01-18
+2023-01-19
 
-## Notes on Rstudio and the Tidyverse
+<div class="figure" style="text-align: center">
+
+<img src="images/workflow.png" alt="Tidy Data Science Workflow" width="100%" />
+<p class="caption">
+Tidy Data Science Workflow
+</p>
+
+</div>
+
+## Overview
 
 -   R Programming Language
 -   RStudio IDE (Integrated Development Environment)
