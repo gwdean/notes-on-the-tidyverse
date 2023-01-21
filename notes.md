@@ -1,7 +1,7 @@
 Notes on the RStudio and the Tidyverse
 ================
-GW Dean
-2023-01-19
+Greg Dean
+2023-01-21
 
 <div class="figure" style="text-align: center">
 
