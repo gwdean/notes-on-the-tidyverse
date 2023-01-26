@@ -21,13 +21,13 @@ can be found at the following link:
 Looks like a final pre-print, as there is no date listed. The website
 for the *Journal of Statistical Software* can be found here:
 
-<https://vita.had.co.nz/papers/tidy-data.pdf>
+<https://www.jstatsoft.org/index>
 
 The document itself is 22 pages long, with an additional page of 15
 references. The paper consists of an abstract, and seven sections. The
 seventh section is simply an acknowledgment of the people that Wickham
 worked with while developing the ideas in the paper, so the core of the
-paper is the first six sections, which we we list:
+paper is the first six sections, which we we list here:
 
 1.  Introduction (1-2)
 2.  Defining tidy data (2-5)
@@ -36,33 +36,17 @@ paper is the first six sections, which we we list:
 5.  Case Study (16-20)
 6.  Discussion (20-22)
 
-## R Markdown
+Below I will boil each of these sections down as far as I can to extract
+the key points.
 
-This is an R Markdown document. Markdown is a simple formatting syntax
-for authoring HTML, PDF, and MS Word documents. For more details on
-using R Markdown see <http://rmarkdown.rstudio.com>.
+## Introduction
 
-When you click the **Knit** button a document will be generated that
-includes both content as well as the output of any embedded R code
-chunks within the document. You can embed an R code chunk like this:
+## Defining tidy data
 
-``` r
-summary(cars)
-```
+## Tidying messy data sets
 
-    ##      speed           dist       
-    ##  Min.   : 4.0   Min.   :  2.00  
-    ##  1st Qu.:12.0   1st Qu.: 26.00  
-    ##  Median :15.0   Median : 36.00  
-    ##  Mean   :15.4   Mean   : 42.98  
-    ##  3rd Qu.:19.0   3rd Qu.: 56.00  
-    ##  Max.   :25.0   Max.   :120.00
+## Tidy tools
 
-## Including Plots
+## Case Study
 
-You can also embed plots, for example:
-
-![](notes-on-tidy-data_files/figure-gfm/pressure-1.png)<!-- -->
-
-Note that the `echo = FALSE` parameter was added to the code chunk to
-prevent printing of the R code that generated the plot.
+## Discussion
