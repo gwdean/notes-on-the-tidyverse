@@ -4,13 +4,15 @@ author: "Greg Dean"
 date: "`r Sys.Date()`"
 output: github_document
 ---
-This document demostrates some techniques to organize data as *tidy data*. 
+
+This document demostrates some techniques to organize data as *tidy data*.
 
 Once your data is organized into a tidy form, you are able to apply the various tools of the tidyverse to find insights in your data.
 
-The examples in this document are adapted from Chapter 9 in the first edition of _R for Data Science_ by Hadley Wickham & Garrett Grolemund.
+The examples in this document are adapted from Chapter 9 in the first edition of *R for Data Science* by Hadley Wickham & Garrett Grolemund.
 
 ## Prerequisites
+
 We will be focusing on the *tidyr* package in this example. *Tidyr* provides a variety of tools that help "tidy up" messy (or non-tidy) data sets.
 
 Since *tidyr* is part of the "core tidyverse" we can load the tidyverse package to gain the functionality we need:
@@ -18,15 +20,17 @@ Since *tidyr* is part of the "core tidyverse" we can load the tidyverse package 
 ```{r, echo = FALSE}
 library(tidyverse)
 ```
+
 ## Representation of the Same Data in Different Ways
+
 The following example represents the same underlying data in four different ways.
 
 Each dataset shows the same values of four variables organized in a different way:
 
-1. Country
-2. Year
-3. Population
-4. Cases
+1.  Country
+2.  Year
+3.  Population
+4.  Cases
 
 ```{r, echo = FALSE}
 table1
@@ -39,16 +43,18 @@ table4a
 
 table4b
 ```
+
 While these tables are all representations of the same underlying data, they are not equally easy to use.
 
-One dataset, the _Tidy Data Set_ will be much easier to work with inside the tidyverse.
+One dataset, the *Tidy Data Set* will be much easier to work with inside the tidyverse.
 
 ## Three Rules Which Make a Data Set Tidy
+
 [INSERT THE PICTURE FROM PG. 149 HERE]
 
-1. Each variable must have its own column.
-2. Each observation must have its own row.
-3. Each value must have its own cell.
+1.  Each variable must have its own column.
+2.  Each observation must have its own row.
+3.  Each value must have its own cell.
 
 In the example above, only `table1` is tidy, as it is the only representation where each column is a variable.
 
@@ -56,9 +62,9 @@ Why ensure the data is tidy?
 
 Two main advantages:
 
-1. **Consistency**. If you have a consistent data structure, it's easier to learn the tools that work with it because they have an underlying uniformity.  
+1.  **Consistency**. If you have a consistent data structure, it's easier to learn the tools that work with it because they have an underlying uniformity.
 
-2. **Vectors**. Placing variables in columns allows R's vectorized nature to shine. Most built-in functions in the R Programming language work with vectors of values, and tidy data works well with these types of functions.
+2.  **Vectors**. Placing variables in columns allows R's vectorized nature to shine. Most built-in functions in the R Programming language work with vectors of values, and tidy data works well with these types of functions.
 
 ```{r echo = FALSE}
 # Compute rate per 10,000
