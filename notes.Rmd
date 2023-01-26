@@ -1,5 +1,5 @@
 ---
-title: "Notes on the RStudio and the Tidyverse"
+title: "Introduction to RStudio and the Tidyverse"
 author: "Greg Dean"
 date: "`r Sys.Date()`"
 output: github_document
@@ -21,14 +21,11 @@ knitr::include_graphics('images/workflow.png')
 
 
 ### Core Tidyverse
-- dplyr (https://dplyr.tidyverse.org/)
-- ggplot2 (https://ggplot2.tidyverse.org/)
-- tibble (https://tibble.tidyverse.org/)
-- readr (https://readr.tidyverse.org/)
-- forcats (https://forcats.tidyverse.org/)
-- stringr (https://stringr.tidyverse.org/)
-- tidyr (https://tidyr.tidyverse.org/)
-- purrr (https://purrr.tidyverse.org/)
+- https://www.tidyverse.org/
+- https://www.tidyverse.org/learn/
+- https://www.tidyverse.org/blog/
+- https://www.tidyverse.org/help/
+- https://posit.co/resources/cheatsheets/
 
 ### Other Resources related to the Tidyverse
 - RMarkdown (https://rmarkdown.rstudio.com/index.html)
@@ -37,17 +34,14 @@ knitr::include_graphics('images/workflow.png')
 - Tidy Models (https://www.tidymodels.org/)
 
 ### Links
-- https://www.tidyverse.org/
-- https://www.tidyverse.org/learn/
-- https://www.tidyverse.org/blog/
-- https://www.tidyverse.org/help/
-- https://roxygen2.r-lib.org/
-- https://posit.co/resources/cheatsheets/
+
 - https://bookdown.org/yihui/rmarkdown/
 - https://datasciencebox.org/
 - https://stat545.com/
 - https://www.rstudio.com/resources/webinars/what-every-data-scientist-should-know-about-education/
 - http://teachtogether.tech/en/index.html
+- https://www.youtube.com/@PositPBC/videos
+- https://socviz.co/
 
 
 

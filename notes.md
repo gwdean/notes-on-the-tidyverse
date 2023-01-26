@@ -1,7 +1,7 @@
-Notes on the RStudio and the Tidyverse
+Introduction to RStudio and the Tidyverse
 ================
 Greg Dean
-2023-01-21
+2023-01-26
 
 <div class="figure" style="text-align: center">
 
@@ -27,14 +27,11 @@ Tidy Data Science Workflow
 
 ### Core Tidyverse
 
--   dplyr (<https://dplyr.tidyverse.org/>)
--   ggplot2 (<https://ggplot2.tidyverse.org/>)
--   tibble (<https://tibble.tidyverse.org/>)
--   readr (<https://readr.tidyverse.org/>)
--   forcats (<https://forcats.tidyverse.org/>)
--   stringr (<https://stringr.tidyverse.org/>)
--   tidyr (<https://tidyr.tidyverse.org/>)
--   purrr (<https://purrr.tidyverse.org/>)
+-   <https://www.tidyverse.org/>
+-   <https://www.tidyverse.org/learn/>
+-   <https://www.tidyverse.org/blog/>
+-   <https://www.tidyverse.org/help/>
+-   <https://posit.co/resources/cheatsheets/>
 
 ### Other Resources related to the Tidyverse
 
@@ -46,14 +43,10 @@ Tidy Data Science Workflow
 
 ### Links
 
--   <https://www.tidyverse.org/>
--   <https://www.tidyverse.org/learn/>
--   <https://www.tidyverse.org/blog/>
--   <https://www.tidyverse.org/help/>
--   <https://roxygen2.r-lib.org/>
--   <https://posit.co/resources/cheatsheets/>
 -   <https://bookdown.org/yihui/rmarkdown/>
 -   <https://datasciencebox.org/>
 -   <https://stat545.com/>
 -   <https://www.rstudio.com/resources/webinars/what-every-data-scientist-should-know-about-education/>
 -   <http://teachtogether.tech/en/index.html>
+-   <https://www.youtube.com/@PositPBC/videos>
+-   <https://socviz.co/>

@@ -39,7 +39,47 @@ paper is the first six sections, which we we list here:
 Below I will boil each of these sections down as far as I can to extract
 the key points.
 
+At the end of the Introduction section, Wickham summarizes the rest of
+the paper briefly as follows:
+
+-   **Section 2** defines the three characteristics that make a dataset
+    tidy.
+
+-   **Section 3** describes the operations needed to make messy datasets
+    tidy, and illustrates the techniques with a range of real examples.
+
+-   **Section 4** defines tidy tools, tools that input and output tidy
+    datasets, and discusses how tidy data and tidy tools together can
+    make data analysis easier.
+
+-   **Section 5** illustrates the tidy principles with a small case
+    study.
+
+-   **Section 6** concludes with a discussion of what the framework
+    misses and what other approaches might be fruitful to pursue.
+
 ## Introduction
+
+“It is often said that 80% of data analysis is spent on the process of
+cleaning and preparing the data.”
+
+Data preparation must be repeated many times over the course of an
+analysis as new problems emerge.
+
+This paper focuses on a small part of data cleaning called **tidying**:
+structuring datasets to facilitate analysis.
+
+The principles of tidy data provide a standard way to organize data
+values within a dataset.
+
+The principles of tidy data are closely related to those of relational
+databases and EF Codd’s relational algebra.
+
+The principles described in this paper derived from the author’s
+real-world data experience and developing numerous R packages to make
+dealing with messy datasets easier. From this experience emerged a
+comprehensive “philosophy of data” that underlies what has come to be
+called the **Tidyverse**.
 
 ## Defining tidy data
 
