@@ -51,6 +51,11 @@ The principles of tidy data are closely related to those of relational databases
 
 The principles described in this paper derived from the author's real-world data experience and developing numerous R packages to make dealing with messy datasets easier. From this experience emerged a comprehensive "philosophy of data" that underlies what has come to be called the **Tidyverse**.
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> d3daba520217c7131743a371293358c21e0c786c
 
 ## Defining tidy data
 
