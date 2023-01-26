@@ -1,7 +1,7 @@
 Tidying Data
 ================
 Greg Dean
-2023-01-21
+2023-01-26
 
 This document demostrates some techniques to organize data as *tidy
 data*.
@@ -111,3 +111,36 @@ the tidyverse.
 
 In the example above, only `table1` is tidy, as it is the only
 representation where each column is a variable.
+
+Why ensure the data is tidy?
+
+Two main advantages:
+
+1.  **Consistency**. If you have a consistent data structure, it’s
+    easier to learn the tools that work with it because they have an
+    underlying uniformity.
+
+2.  **Vectors**. Placing variables in columns allows R’s vectorized
+    nature to shine. Most built-in functions in the R Programming
+    language work with vectors of values, and tidy data works well with
+    these types of functions.
+
+<!-- -->
+
+    ## # A tibble: 6 × 5
+    ##   country      year  cases population  rate
+    ##   <chr>       <int>  <int>      <int> <dbl>
+    ## 1 Afghanistan  1999    745   19987071 0.373
+    ## 2 Afghanistan  2000   2666   20595360 1.29 
+    ## 3 Brazil       1999  37737  172006362 2.19 
+    ## 4 Brazil       2000  80488  174504898 4.61 
+    ## 5 China        1999 212258 1272915272 1.67 
+    ## 6 China        2000 213766 1280428583 1.67
+
+    ## # A tibble: 2 × 2
+    ##    year      n
+    ##   <int>  <int>
+    ## 1  1999 250740
+    ## 2  2000 296920
+
+![](tidying_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->

@@ -52,3 +52,26 @@ One dataset, the _Tidy Data Set_ will be much easier to work with inside the tid
 
 In the example above, only `table1` is tidy, as it is the only representation where each column is a variable.
 
+Why ensure the data is tidy?
+
+Two main advantages:
+
+1. **Consistency**. If you have a consistent data structure, it's easier to learn the tools that work with it because they have an underlying uniformity.  
+
+2. **Vectors**. Placing variables in columns allows R's vectorized nature to shine. Most built-in functions in the R Programming language work with vectors of values, and tidy data works well with these types of functions.
+
+```{r echo = FALSE}
+# Compute rate per 10,000
+table1 %>%
+  mutate(rate = cases / population * 10000)
+
+# Compute cases per year
+table1 %>%
+  count(year, wt = cases)
+
+# Visualize changes over time
+library(ggplot2)
+ggplot(table1, aes(year, cases)) +
+  geom_line(aes(group = country), color = "grey50") +
+  geom_point(aes(color = country))
+```
