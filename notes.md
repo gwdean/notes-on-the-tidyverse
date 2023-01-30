@@ -5,7 +5,7 @@ Greg Dean
 
 ## Overview
 
--   Download RStudio Desktop
+-   Download RStudio
 -   Tidy Data Science Workflow
 -   Tidy Data
 -   Core Tidyverse
