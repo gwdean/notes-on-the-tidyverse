@@ -5,51 +5,40 @@ Greg Dean
 
 ## Overview
 
--   Download RStudio IDE (Integrated Development Environment)
--   Data Science Workflow
+-   Download RStudio Desktop
+-   Tidy Data Science Workflow
 -   Tidy Data
 -   Core Tidyverse
 -   Navigating the Tidyverse
--   Additional Links
+-   Other Resources Related to the Tidyverse
 
 ### Download RStudio
 
--   <https://posit.co/downloads/>
--   <https://posit.co/download/rstudio-desktop/>
+-   <https://posit.co/products/open-source/rstudio/>
 
-### Data Science Workflow
+### Tidy Data Science Workflow
 
-<div class="figure" style="text-align: center">
+<img src="images/workflow.png" width="100%" style="display: block; margin: auto;" />
 
-<img src="images/workflow.png" alt="Tidy Data Science Workflow" width="100%" />
-<p class="caption">
-Tidy Data Science Workflow
-</p>
+### Tidy Data
 
-</div>
+-   <https://tidyr.tidyverse.org/articles/tidy-data.html>
 
 ### Core Tidyverse
 
 -   <https://www.tidyverse.org/>
--   <https://www.tidyverse.org/learn/>
--   <https://www.tidyverse.org/blog/>
--   <https://www.tidyverse.org/help/>
 -   <https://posit.co/resources/cheatsheets/>
+
+### Navigating the Tidyverse
+
+-   <https://r4ds.had.co.nz/>
 
 ### Other Resources related to the Tidyverse
 
--   RMarkdown (<https://rmarkdown.rstudio.com/index.html>)
--   Statistical Inference via Data Science: A ModernDive into R and the
-    Tidyverse (<https://moderndive.com/>)
--   R for Data Science (<https://r4ds.hadley.nz/>)
--   Tidy Models (<https://www.tidymodels.org/>)
-
-### Links
-
--   <https://bookdown.org/yihui/rmarkdown/>
--   <https://datasciencebox.org/>
+-   <https://bookdown.org/>
+-   <https://shiny.rstudio.com/>
+-   <https://www.tidymodels.org/>
+-   <https://happygitwithr.com/>
 -   <https://stat545.com/>
--   <https://www.rstudio.com/resources/webinars/what-every-data-scientist-should-know-about-education/>
--   <http://teachtogether.tech/en/index.html>
--   <https://www.youtube.com/@PositPBC/videos>
--   <https://socviz.co/>
+-   <https://github.com/erikaduan>
+-   <https://www.youtube.com/@PositPBC/featured>
