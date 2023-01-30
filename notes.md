@@ -1,7 +1,23 @@
 Introduction to RStudio and the Tidyverse
 ================
 Greg Dean
-2023-01-26
+2023-01-30
+
+## Overview
+
+-   Download RStudio IDE (Integrated Development Environment)
+-   Data Science Workflow
+-   Tidy Data
+-   Core Tidyverse
+-   Navigating the Tidyverse
+-   Additional Links
+
+### Download RStudio
+
+-   <https://posit.co/downloads/>
+-   <https://posit.co/download/rstudio-desktop/>
+
+### Data Science Workflow
 
 <div class="figure" style="text-align: center">
 
@@ -11,19 +27,6 @@ Tidy Data Science Workflow
 </p>
 
 </div>
-
-## Overview
-
--   R Programming Language
--   RStudio IDE (Integrated Development Environment)
--   Tidyverse
--   Posit
--   RMarkdown
-
-### Download RStudio
-
--   <https://posit.co/downloads/>
--   <https://posit.co/download/rstudio-desktop/>
 
 ### Core Tidyverse
 

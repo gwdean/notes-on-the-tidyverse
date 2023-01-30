@@ -4,21 +4,23 @@ author: "Greg Dean"
 date: "`r Sys.Date()`"
 output: github_document
 ---
-```{r, out.width='100%', fig.align='center', fig.cap='Tidy Data Science Workflow', echo = FALSE}
-knitr::include_graphics('images/workflow.png')
-```
 
 ## Overview
-- R Programming Language
-- RStudio IDE (Integrated Development Environment)
-- Tidyverse
-- Posit
-- RMarkdown
+- Download RStudio IDE (Integrated Development Environment)
+- Data Science Workflow
+- Tidy Data
+- Core Tidyverse
+- Navigating the Tidyverse
+- Additional Links
 
 ### Download RStudio
 - https://posit.co/downloads/
 - https://posit.co/download/rstudio-desktop/
 
+### Data Science Workflow
+```{r, out.width='100%', fig.align='center', fig.cap='Tidy Data Science Workflow', echo = FALSE}
+knitr::include_graphics('images/workflow.png')
+```
 
 ### Core Tidyverse
 - https://www.tidyverse.org/
