@@ -6,15 +6,14 @@ output: github_document
 ---
 
 ## Overview
-- Download RStudio IDE (Integrated Development Environment)
-- Data Science Workflow
+- Download RStudio Desktop
+- Tidy Data Science Workflow
 - Tidy Data
 - Core Tidyverse
 - Navigating the Tidyverse
 - Additional Links
 
-### Download RStudio
-- https://posit.co/downloads/
+### Download RStudio Desktop
 - https://posit.co/download/rstudio-desktop/
 
 ### Data Science Workflow
